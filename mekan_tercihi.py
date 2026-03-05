@@ -1,5 +1,5 @@
 """
-KATMAN 4 — Mekan Tercihi Sınıflandırması: Bahçe vs İç Salon
+Mekan Tercihi Sınıflandırması: Bahçe vs İç Salon
 =============================================================
 Soru  : Hava koşullarından müşterinin Bahçe mi İç Salon mu
         seçeceği tahmin edilebilir mi?
@@ -20,8 +20,8 @@ warnings.filterwarnings('ignore')
 # ─────────────────────────────────────────
 # 0. AYARLAR
 # ─────────────────────────────────────────
-CSV_PATH   = "veri.csv"   # <── kendi dosya yolunu gir
-OUTPUT_DIR = "katman4_cikti"
+CSV_PATH   = r"C:/Users/BUSRA/Documents/GitHub/IoBDataAnalysis/Veriler/oturum_hava_birlesik.csv"
+OUTPUT_DIR = r"C:/Users/BUSRA/Documents/GitHub/IoBDataAnalysis/Outputs/Mekan_tercihi_cikti"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ─────────────────────────────────────────
@@ -53,7 +53,7 @@ mask = df['outlier_flag'].isna() & df['masa_grup'].isin(['Bahçe', 'İç Salon']
 df_k4 = df[mask].copy()
 df_k4['bahce_mi'] = (df_k4['masa_grup'] == 'Bahçe').astype(int)
 
-print(f"  Katman 4 veri seti: {len(df_k4):,} oturum")
+print(f"  Mekan Tercihi veri seti: {len(df_k4):,} oturum")
 print(df_k4['masa_grup'].value_counts().to_string())
 print(f"  Sınıf dengesi: {df_k4['bahce_mi'].mean():.3f} (Bahçe oranı)")
 
@@ -189,4 +189,4 @@ cv_auc = cross_val_score(rf_clf, X, y, cv=skf, scoring='roc_auc')
 print(f"  Accuracy: {cv_acc.mean():.4f} ± {cv_acc.std():.4f}")
 print(f"  AUC-ROC:  {cv_auc.mean():.4f} ± {cv_auc.std():.4f}")
 
-print("\n✓ Katman 4 tamamlandı.")
+print("\n✓ Mekan Tercihi sınıflandırması tamamlandı.")

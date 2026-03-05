@@ -1,8 +1,8 @@
 """
-KATMAN 1 — Günlük Oturum Sayısı Tahmini
+Günlük Oturum Sayısı Tahmini
 ========================================
 Soru  : Hava koşulları o gün kaç müşterinin geldiğini etkiliyor mu?
-Çıktı : model_sonuclari, feature_importance_gunluk.png, katman1_ozet.txt
+Çıktı : model_sonuclari, feature_importance_gunluk.png, gunluk_talep_ozet.txt
 """
 
 import pandas as pd
@@ -19,8 +19,8 @@ warnings.filterwarnings('ignore')
 # ─────────────────────────────────────────
 # 0. AYARLAR
 # ─────────────────────────────────────────
-CSV_PATH   = "veri.csv"          # <── kendi dosya yolunu gir
-OUTPUT_DIR = "katman1_cikti"
+CSV_PATH   = r"C:/Users/BUSRA/Documents/GitHub/IoBDataAnalysis/Veriler/oturum_hava_birlesik.csv"
+OUTPUT_DIR = r"C:/Users/BUSRA/Documents/GitHub/IoBDataAnalysis/Outputs/Gunluk_talep_cikti"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ─────────────────────────────────────────
@@ -224,4 +224,4 @@ plt.savefig(path_fig, dpi=150)
 plt.show()
 print(f"\nGrafik kaydedildi: {path_fig}")
 
-print("\n✓ Katman 1 tamamlandı.")
+print("\n✓ Günlük talep tahmini tamamlandı.")
