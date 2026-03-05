@@ -1,5 +1,5 @@
 """
-KATMAN 3 — Satış Davranışı: toplam_tutar & toplam_miktar
+Satış Davranışı: toplam_tutar & toplam_miktar
 =========================================================
 Soru  : Hava koşulları müşterinin ne kadar harcadığını ve
         kaç ürün sipariş ettiğini etkiliyor mu?
@@ -20,8 +20,8 @@ warnings.filterwarnings('ignore')
 # ─────────────────────────────────────────
 # 0. AYARLAR
 # ─────────────────────────────────────────
-CSV_PATH   = "veri.csv"   # <── kendi dosya yolunu gir
-OUTPUT_DIR = "katman3_cikti"
+CSV_PATH   = r"C:/Users/BUSRA/Documents/GitHub/IoBDataAnalysis/Veriler/oturum_hava_birlesik.csv"
+OUTPUT_DIR = r"C:/Users/BUSRA/Documents/GitHub/IoBDataAnalysis/Outputs/Satis_davranisi_cikti"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ─────────────────────────────────────────
@@ -175,10 +175,10 @@ for hedef in ['toplam_tutar', 'toplam_miktar']:
 # 5. ÖZET KARŞILAŞTIRMA
 # ─────────────────────────────────────────
 print("\n" + "="*60)
-print("ÖZET — Katman 3 Model Karşılaştırması")
+print("ÖZET — Satış Davranışı Model Karşılaştırması")
 print("="*60)
-print(f"  oturum_sure_dk (Katman 2) R²: 0.1780  ← referans")
+print(f"  oturum_sure_dk (oturum_sure_dk) R²: 0.1780  ← referans")
 for hedef, res in all_results.items():
     print(f"  {hedef:<20} R²: {res['R2']:.4f}  ({res['model']})")
 
-print("\n✓ Katman 3 tamamlandı.")
+print("\n✓ Satış Davranışı tahmini tamamlandı.")

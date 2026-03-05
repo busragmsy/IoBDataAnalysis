@@ -1,5 +1,5 @@
 """
-KATMAN 5 — Dönem Karşılaştırması: Hava-Davranış İlişkisi Değişti mi?
+Dönem Karşılaştırması: Hava-Davranış İlişkisi Değişti mi?
 ======================================================================
 Soru  : Pre-COVID, COVID ve Post-COVID dönemlerinde hava durumunun
         müşteri davranışı üzerindeki etkisi farklılaştı mı?
@@ -20,8 +20,8 @@ warnings.filterwarnings('ignore')
 # ─────────────────────────────────────────
 # 0. AYARLAR
 # ─────────────────────────────────────────
-CSV_PATH   = "veri.csv"   # <── kendi dosya yolunu gir
-OUTPUT_DIR = "katman5_cikti"
+CSV_PATH   = r"C:/Users/BUSRA/Documents/GitHub/IoBDataAnalysis/Veriler/oturum_hava_birlesik.csv"
+OUTPUT_DIR = r"C:/Users/BUSRA/Documents/GitHub/IoBDataAnalysis/Outputs/Donem_karsilastirma_cikti"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ─────────────────────────────────────────
@@ -125,7 +125,7 @@ for hedef in hedefler:
 # 5. DÖNEM × YAĞIŞ ETKİLEŞİMİ
 # ─────────────────────────────────────────
 print("\n" + "="*65)
-print("DÖNEM × YAĞIŞ ETKİLEŞİMİ — Günlük Oturum Sayısı (Katman 1 Tamamlayıcısı)")
+print("DÖNEM × YAĞIŞ ETKİLEŞİMİ — Günlük Oturum Sayısı")
 print("="*65)
 
 df_normal['tarih_dt'] = pd.to_datetime(df_normal['tarih'])
@@ -220,4 +220,4 @@ for donem, s in donem_sonuclar.items():
     print(f"{donem:<15} {s['n']:>8,} {s['r2']:>8.4f} {s['rmse']:>8.2f} "
           f"{s['hava_toplam']:>14.4f} {en_onemli:>28}")
 
-print("\n✓ Katman 5 tamamlandı.")
+print("\n✓ Dönem Karşılaştırması tamamlandı.")
