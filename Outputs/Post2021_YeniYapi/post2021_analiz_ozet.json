@@ -1,0 +1,346 @@
+{
+  "analysis_scope": "Post-2021 IoB restaurant behavior analysis",
+  "input_file": "C:\\Users\\BUSRA\\Documents\\GitHub\\IoBDataAnalysis\\Veriler\\oturum_hava_birlesik_2021_ve_sonrasi.csv",
+  "output_sqlite": "C:\\Users\\BUSRA\\Documents\\GitHub\\IoBDataAnalysis\\Outputs\\Post2021_YeniYapi\\post2021_analiz_paketi.sqlite",
+  "kpi_summary": [
+    {
+      "analysis_start": "2021-01-02",
+      "analysis_end": "2025-05-28",
+      "row_count": 133247,
+      "open_day_count": 1390,
+      "closed_day_count": 218,
+      "unique_check_count": 133247,
+      "unique_table_count": 7466,
+      "check_uniqueness_ratio": 1.0,
+      "mean_oturum_sure_dk": 53.8607,
+      "median_oturum_sure_dk": 26.0,
+      "mean_toplam_tutar": 389.6854,
+      "median_toplam_tutar": 220.0,
+      "mean_toplam_miktar": 5.7784,
+      "mean_urun_sayisi": 3.2944,
+      "outlier_rate_pct": 9.3796
+    }
+  ],
+  "top_association_drivers": [
+    {
+      "parameter": "outlier_flag",
+      "sample_size": 133247,
+      "category_count": 3,
+      "table_group_count": 3,
+      "min_group_size": 3461,
+      "chi2_stat": 20723.1113370001,
+      "p_value": 0.0,
+      "cramers_v": 0.27885842
+    },
+    {
+      "parameter": "apparent_temperature_qbin",
+      "sample_size": 133247,
+      "category_count": 5,
+      "table_group_count": 3,
+      "min_group_size": 26289,
+      "chi2_stat": 15706.0598597234,
+      "p_value": 0.0,
+      "cramers_v": 0.2427671425
+    },
+    {
+      "parameter": "temperature_2m_qbin",
+      "sample_size": 133247,
+      "category_count": 5,
+      "table_group_count": 3,
+      "min_group_size": 26096,
+      "chi2_stat": 15453.3617992754,
+      "p_value": 0.0,
+      "cramers_v": 0.2408062577
+    },
+    {
+      "parameter": "hafta_no",
+      "sample_size": 133247,
+      "category_count": 53,
+      "table_group_count": 3,
+      "min_group_size": 47,
+      "chi2_stat": 14625.2586934732,
+      "p_value": 0.0,
+      "cramers_v": 0.2342653518
+    },
+    {
+      "parameter": "sicaklik_aralik",
+      "sample_size": 133247,
+      "category_count": 5,
+      "table_group_count": 3,
+      "min_group_size": 433,
+      "chi2_stat": 14535.4922396357,
+      "p_value": 0.0,
+      "cramers_v": 0.233545312
+    },
+    {
+      "parameter": "ay",
+      "sample_size": 133247,
+      "category_count": 12,
+      "table_group_count": 3,
+      "min_group_size": 5029,
+      "chi2_stat": 13039.4446332008,
+      "p_value": 0.0,
+      "cramers_v": 0.2212003601
+    },
+    {
+      "parameter": "dewpoint_2m_qbin",
+      "sample_size": 133247,
+      "category_count": 5,
+      "table_group_count": 3,
+      "min_group_size": 26398,
+      "chi2_stat": 11951.2243882253,
+      "p_value": 0.0,
+      "cramers_v": 0.2117690471
+    },
+    {
+      "parameter": "shortwave_radiation_qbin",
+      "sample_size": 133247,
+      "category_count": 5,
+      "table_group_count": 3,
+      "min_group_size": 26599,
+      "chi2_stat": 4508.79516127,
+      "p_value": 0.0,
+      "cramers_v": 0.1300728137
+    },
+    {
+      "parameter": "relative_humidity_2m_qbin",
+      "sample_size": 133247,
+      "category_count": 5,
+      "table_group_count": 3,
+      "min_group_size": 25942,
+      "chi2_stat": 4291.2893104623,
+      "p_value": 0.0,
+      "cramers_v": 0.1268966566
+    },
+    {
+      "parameter": "pressure_msl_qbin",
+      "sample_size": 133247,
+      "category_count": 5,
+      "table_group_count": 3,
+      "min_group_size": 26202,
+      "chi2_stat": 4079.5124320386,
+      "p_value": 0.0,
+      "cramers_v": 0.1237258405
+    }
+  ],
+  "model_metrics": [
+    {
+      "task": "classification",
+      "target": "masa_grup",
+      "model": "RandomForestClassifier",
+      "sample_size": 133247,
+      "metric_accuracy": 0.6873499039,
+      "metric_f1_macro": 0.683816595,
+      "metric_auc_ovr_macro": 0.8563915942,
+      "metric_r2": null,
+      "metric_mae": null,
+      "metric_rmse": null
+    },
+    {
+      "task": "regression",
+      "target": "toplam_tutar",
+      "model": "RandomForestRegressor",
+      "sample_size": 133247,
+      "metric_accuracy": null,
+      "metric_f1_macro": null,
+      "metric_auc_ovr_macro": null,
+      "metric_r2": 0.6637392811,
+      "metric_mae": 153.3415898325,
+      "metric_rmse": 299.5088524258
+    },
+    {
+      "task": "regression",
+      "target": "oturum_sure_dk",
+      "model": "RandomForestRegressor",
+      "sample_size": 133247,
+      "metric_accuracy": null,
+      "metric_f1_macro": null,
+      "metric_auc_ovr_macro": null,
+      "metric_r2": 0.9793508133,
+      "metric_mae": 8.8424765087,
+      "metric_rmse": 12.8413822396
+    }
+  ],
+  "dominant_preferences": [
+    {
+      "parameter": "apparent_temperature_qbin",
+      "parameter_value": "(-8.501, 6.42]",
+      "dominant_table_group": "İç Salon",
+      "dominant_share_pct": 49.47,
+      "session_rows": 13184,
+      "mean_toplam_tutar": 444.19140625,
+      "median_oturum_sure_dk": 24.0
+    },
+    {
+      "parameter": "apparent_temperature_qbin",
+      "parameter_value": "(12.0, 18.4]",
+      "dominant_table_group": "İç Salon",
+      "dominant_share_pct": 35.42,
+      "session_rows": 9312,
+      "mean_toplam_tutar": 478.781820232,
+      "median_oturum_sure_dk": 24.0
+    },
+    {
+      "parameter": "apparent_temperature_qbin",
+      "parameter_value": "(18.4, 25.5]",
+      "dominant_table_group": "Bahçe",
+      "dominant_share_pct": 45.9,
+      "session_rows": 12356,
+      "mean_toplam_tutar": 397.796819359,
+      "median_oturum_sure_dk": 27.0
+    },
+    {
+      "parameter": "apparent_temperature_qbin",
+      "parameter_value": "(25.5, 41.0]",
+      "dominant_table_group": "Bahçe",
+      "dominant_share_pct": 43.26,
+      "session_rows": 11400,
+      "mean_toplam_tutar": 381.3913219298,
+      "median_oturum_sure_dk": 26.0
+    },
+    {
+      "parameter": "apparent_temperature_qbin",
+      "parameter_value": "(6.42, 12.0]",
+      "dominant_table_group": "İç Salon",
+      "dominant_share_pct": 46.34,
+      "session_rows": 12529,
+      "mean_toplam_tutar": 531.8986351664,
+      "median_oturum_sure_dk": 24.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 1,
+      "dominant_table_group": "Paket",
+      "dominant_share_pct": 45.34,
+      "session_rows": 6060,
+      "mean_toplam_tutar": 260.153960396,
+      "median_oturum_sure_dk": 29.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 2,
+      "dominant_table_group": "Paket",
+      "dominant_share_pct": 44.81,
+      "session_rows": 5595,
+      "mean_toplam_tutar": 263.3690795353,
+      "median_oturum_sure_dk": 28.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 3,
+      "dominant_table_group": "İç Salon",
+      "dominant_share_pct": 46.18,
+      "session_rows": 4269,
+      "mean_toplam_tutar": 287.2437338955,
+      "median_oturum_sure_dk": 23.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 4,
+      "dominant_table_group": "İç Salon",
+      "dominant_share_pct": 42.93,
+      "session_rows": 2159,
+      "mean_toplam_tutar": 866.8399722094,
+      "median_oturum_sure_dk": 25.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 5,
+      "dominant_table_group": "Paket",
+      "dominant_share_pct": 34.51,
+      "session_rows": 4120,
+      "mean_toplam_tutar": 390.2922694175,
+      "median_oturum_sure_dk": 24.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 6,
+      "dominant_table_group": "Bahçe",
+      "dominant_share_pct": 44.02,
+      "session_rows": 4599,
+      "mean_toplam_tutar": 306.9286801479,
+      "median_oturum_sure_dk": 26.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 7,
+      "dominant_table_group": "Bahçe",
+      "dominant_share_pct": 43.71,
+      "session_rows": 4019,
+      "mean_toplam_tutar": 366.3447549142,
+      "median_oturum_sure_dk": 26.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 8,
+      "dominant_table_group": "Bahçe",
+      "dominant_share_pct": 44.37,
+      "session_rows": 5351,
+      "mean_toplam_tutar": 336.1934217903,
+      "median_oturum_sure_dk": 26.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 9,
+      "dominant_table_group": "Bahçe",
+      "dominant_share_pct": 44.69,
+      "session_rows": 5703,
+      "mean_toplam_tutar": 369.9764159214,
+      "median_oturum_sure_dk": 28.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 10,
+      "dominant_table_group": "Bahçe",
+      "dominant_share_pct": 33.68,
+      "session_rows": 4242,
+      "mean_toplam_tutar": 411.1028995757,
+      "median_oturum_sure_dk": 28.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 11,
+      "dominant_table_group": "İç Salon",
+      "dominant_share_pct": 43.58,
+      "session_rows": 5341,
+      "mean_toplam_tutar": 443.1298445984,
+      "median_oturum_sure_dk": 24.0
+    },
+    {
+      "parameter": "ay",
+      "parameter_value": 12,
+      "dominant_table_group": "İç Salon",
+      "dominant_share_pct": 51.52,
+      "session_rows": 6116,
+      "mean_toplam_tutar": 465.1978417266,
+      "median_oturum_sure_dk": 24.0
+    },
+    {
+      "parameter": "cloudcover_qbin",
+      "parameter_value": "(-0.001, 3.0]",
+      "dominant_table_group": "Bahçe",
+      "dominant_share_pct": 35.05,
+      "session_rows": 9987,
+      "mean_toplam_tutar": 406.0481626114,
+      "median_oturum_sure_dk": 27.0
+    },
+    {
+      "parameter": "cloudcover_qbin",
+      "parameter_value": "(3.0, 30.0]",
+      "dominant_table_group": "Paket",
+      "dominant_share_pct": 34.77,
+      "session_rows": 8660,
+      "mean_toplam_tutar": 306.8147228637,
+      "median_oturum_sure_dk": 30.0
+    },
+    {
+      "parameter": "cloudcover_qbin",
+      "parameter_value": "(30.0, 77.0]",
+      "dominant_table_group": "Paket",
+      "dominant_share_pct": 36.35,
+      "session_rows": 9655,
+      "mean_toplam_tutar": 269.4113671673,
+      "median_oturum_sure_dk": 33.0
+    }
+  ]
+}

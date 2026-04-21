@@ -1,0 +1,995 @@
+{
+  "meta": {
+    "kaynak_dosya": "Veriler\\oturum_hava_birlesik_2021_ve_sonrasi.csv",
+    "uretim_zamani": "2026-04-21T16:49:58.356042",
+    "satir_sayisi": 120749,
+    "parametreler": [
+      "bulut_grup",
+      "is_day",
+      "nem_grup",
+      "ruzgar_grup",
+      "sicaklik_aralik",
+      "sicaklik_grup",
+      "yagis_kategori",
+      "yagis_miktar_grup"
+    ]
+  },
+  "parametre_tabanli_oranlar": [
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Açık",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 36.38,
+      "grup_oturum_sayisi": 65462
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Bulutlu",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 25.8,
+      "grup_oturum_sayisi": 35253
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Kar",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 4.91,
+      "grup_oturum_sayisi": 1080
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Sağanak",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 17.48,
+      "grup_oturum_sayisi": 103
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Yağmur",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 24.65,
+      "grup_oturum_sayisi": 18829
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Açık",
+      "masa_grup": "Paket",
+      "oran_yuzde": 28.86,
+      "grup_oturum_sayisi": 65462
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Bulutlu",
+      "masa_grup": "Paket",
+      "oran_yuzde": 30.7,
+      "grup_oturum_sayisi": 35253
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Kar",
+      "masa_grup": "Paket",
+      "oran_yuzde": 47.04,
+      "grup_oturum_sayisi": 1080
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Sağanak",
+      "masa_grup": "Paket",
+      "oran_yuzde": 35.92,
+      "grup_oturum_sayisi": 103
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Yağmur",
+      "masa_grup": "Paket",
+      "oran_yuzde": 30.84,
+      "grup_oturum_sayisi": 18829
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Açık",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 34.76,
+      "grup_oturum_sayisi": 65462
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Bulutlu",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 43.5,
+      "grup_oturum_sayisi": 35253
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Kar",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 48.06,
+      "grup_oturum_sayisi": 1080
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Sağanak",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 46.6,
+      "grup_oturum_sayisi": 103
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Yağmur",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 44.51,
+      "grup_oturum_sayisi": 18829
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "0",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 32.67,
+      "grup_oturum_sayisi": 100734
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "0-1",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 24.28,
+      "grup_oturum_sayisi": 17600
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "1-5",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 18.25,
+      "grup_oturum_sayisi": 2302
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "5-15",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 15.93,
+      "grup_oturum_sayisi": 113
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "0",
+      "masa_grup": "Paket",
+      "oran_yuzde": 29.51,
+      "grup_oturum_sayisi": 100734
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "0-1",
+      "masa_grup": "Paket",
+      "oran_yuzde": 31.03,
+      "grup_oturum_sayisi": 17600
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "1-5",
+      "masa_grup": "Paket",
+      "oran_yuzde": 36.88,
+      "grup_oturum_sayisi": 2302
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "5-15",
+      "masa_grup": "Paket",
+      "oran_yuzde": 33.63,
+      "grup_oturum_sayisi": 113
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "0",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 37.82,
+      "grup_oturum_sayisi": 100734
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "0-1",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 44.69,
+      "grup_oturum_sayisi": 17600
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "1-5",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 44.87,
+      "grup_oturum_sayisi": 2302
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "5-15",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 50.44,
+      "grup_oturum_sayisi": 113
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Ilık (10–20°)",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 26.31,
+      "grup_oturum_sayisi": 47673
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Soğuk (0–10°)",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 8.8,
+      "grup_oturum_sayisi": 25713
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Sıcak (20–30°)",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 50.03,
+      "grup_oturum_sayisi": 41793
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Çok Soğuk (<0°)",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 2.76,
+      "grup_oturum_sayisi": 398
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Çok Sıcak (>30°)",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 36.6,
+      "grup_oturum_sayisi": 5172
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Ilık (10–20°)",
+      "masa_grup": "Paket",
+      "oran_yuzde": 30.08,
+      "grup_oturum_sayisi": 47673
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Soğuk (0–10°)",
+      "masa_grup": "Paket",
+      "oran_yuzde": 36.03,
+      "grup_oturum_sayisi": 25713
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Sıcak (20–30°)",
+      "masa_grup": "Paket",
+      "oran_yuzde": 26.07,
+      "grup_oturum_sayisi": 41793
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Çok Soğuk (<0°)",
+      "masa_grup": "Paket",
+      "oran_yuzde": 57.29,
+      "grup_oturum_sayisi": 398
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Çok Sıcak (>30°)",
+      "masa_grup": "Paket",
+      "oran_yuzde": 26.06,
+      "grup_oturum_sayisi": 5172
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Ilık (10–20°)",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 43.6,
+      "grup_oturum_sayisi": 47673
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Soğuk (0–10°)",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 55.17,
+      "grup_oturum_sayisi": 25713
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Sıcak (20–30°)",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 23.9,
+      "grup_oturum_sayisi": 41793
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Çok Soğuk (<0°)",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 39.95,
+      "grup_oturum_sayisi": 398
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Çok Sıcak (>30°)",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 37.34,
+      "grup_oturum_sayisi": 5172
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "<0",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 2.76,
+      "grup_oturum_sayisi": 398
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "0-10",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 8.8,
+      "grup_oturum_sayisi": 25713
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "10-20",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 26.31,
+      "grup_oturum_sayisi": 47673
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "20-30",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 50.03,
+      "grup_oturum_sayisi": 41793
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "30+",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 36.6,
+      "grup_oturum_sayisi": 5172
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "<0",
+      "masa_grup": "Paket",
+      "oran_yuzde": 57.29,
+      "grup_oturum_sayisi": 398
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "0-10",
+      "masa_grup": "Paket",
+      "oran_yuzde": 36.03,
+      "grup_oturum_sayisi": 25713
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "10-20",
+      "masa_grup": "Paket",
+      "oran_yuzde": 30.08,
+      "grup_oturum_sayisi": 47673
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "20-30",
+      "masa_grup": "Paket",
+      "oran_yuzde": 26.07,
+      "grup_oturum_sayisi": 41793
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "30+",
+      "masa_grup": "Paket",
+      "oran_yuzde": 26.06,
+      "grup_oturum_sayisi": 5172
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "<0",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 39.95,
+      "grup_oturum_sayisi": 398
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "0-10",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 55.17,
+      "grup_oturum_sayisi": 25713
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "10-20",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 43.6,
+      "grup_oturum_sayisi": 47673
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "20-30",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 23.9,
+      "grup_oturum_sayisi": 41793
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "30+",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 37.34,
+      "grup_oturum_sayisi": 5172
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "0-40",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 42.58,
+      "grup_oturum_sayisi": 6473
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "40-60",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 39.92,
+      "grup_oturum_sayisi": 39701
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "60-80",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 29.15,
+      "grup_oturum_sayisi": 52479
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "80-100",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 16.83,
+      "grup_oturum_sayisi": 22096
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "0-40",
+      "masa_grup": "Paket",
+      "oran_yuzde": 25.91,
+      "grup_oturum_sayisi": 6473
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "40-60",
+      "masa_grup": "Paket",
+      "oran_yuzde": 26.99,
+      "grup_oturum_sayisi": 39701
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "60-80",
+      "masa_grup": "Paket",
+      "oran_yuzde": 30.54,
+      "grup_oturum_sayisi": 52479
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "80-100",
+      "masa_grup": "Paket",
+      "oran_yuzde": 34.65,
+      "grup_oturum_sayisi": 22096
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "0-40",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 31.52,
+      "grup_oturum_sayisi": 6473
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "40-60",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 33.09,
+      "grup_oturum_sayisi": 39701
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "60-80",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 40.31,
+      "grup_oturum_sayisi": 52479
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "80-100",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 48.52,
+      "grup_oturum_sayisi": 22096
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "0-5",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 29.68,
+      "grup_oturum_sayisi": 6536
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "5-15",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 30.43,
+      "grup_oturum_sayisi": 50168
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "15-30",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 32.19,
+      "grup_oturum_sayisi": 60336
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "30+",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 26.83,
+      "grup_oturum_sayisi": 3709
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "0-5",
+      "masa_grup": "Paket",
+      "oran_yuzde": 30.11,
+      "grup_oturum_sayisi": 6536
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "5-15",
+      "masa_grup": "Paket",
+      "oran_yuzde": 30.62,
+      "grup_oturum_sayisi": 50168
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "15-30",
+      "masa_grup": "Paket",
+      "oran_yuzde": 29.05,
+      "grup_oturum_sayisi": 60336
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "30+",
+      "masa_grup": "Paket",
+      "oran_yuzde": 32.76,
+      "grup_oturum_sayisi": 3709
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "0-5",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 40.21,
+      "grup_oturum_sayisi": 6536
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "5-15",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 38.95,
+      "grup_oturum_sayisi": 50168
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "15-30",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 38.76,
+      "grup_oturum_sayisi": 60336
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "30+",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 40.42,
+      "grup_oturum_sayisi": 3709
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "0-20",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 37.46,
+      "grup_oturum_sayisi": 42052
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "20-50",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 36.18,
+      "grup_oturum_sayisi": 18265
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "50-80",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 32.5,
+      "grup_oturum_sayisi": 13521
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "80-100",
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 23.16,
+      "grup_oturum_sayisi": 46911
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "0-20",
+      "masa_grup": "Paket",
+      "oran_yuzde": 28.41,
+      "grup_oturum_sayisi": 42052
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "20-50",
+      "masa_grup": "Paket",
+      "oran_yuzde": 29.34,
+      "grup_oturum_sayisi": 18265
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "50-80",
+      "masa_grup": "Paket",
+      "oran_yuzde": 29.58,
+      "grup_oturum_sayisi": 13521
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "80-100",
+      "masa_grup": "Paket",
+      "oran_yuzde": 31.49,
+      "grup_oturum_sayisi": 46911
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "0-20",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 34.13,
+      "grup_oturum_sayisi": 42052
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "20-50",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 34.48,
+      "grup_oturum_sayisi": 18265
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "50-80",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 37.92,
+      "grup_oturum_sayisi": 13521
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "80-100",
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 45.35,
+      "grup_oturum_sayisi": 46911
+    },
+    {
+      "parametre": "is_day",
+      "parametre_degeri": 0,
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 20.91,
+      "grup_oturum_sayisi": 20131
+    },
+    {
+      "parametre": "is_day",
+      "parametre_degeri": 1,
+      "masa_grup": "Bahçe",
+      "oran_yuzde": 33.21,
+      "grup_oturum_sayisi": 100618
+    },
+    {
+      "parametre": "is_day",
+      "parametre_degeri": 0,
+      "masa_grup": "Paket",
+      "oran_yuzde": 35.44,
+      "grup_oturum_sayisi": 20131
+    },
+    {
+      "parametre": "is_day",
+      "parametre_degeri": 1,
+      "masa_grup": "Paket",
+      "oran_yuzde": 28.76,
+      "grup_oturum_sayisi": 100618
+    },
+    {
+      "parametre": "is_day",
+      "parametre_degeri": 0,
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 43.65,
+      "grup_oturum_sayisi": 20131
+    },
+    {
+      "parametre": "is_day",
+      "parametre_degeri": 1,
+      "masa_grup": "İç Salon",
+      "oran_yuzde": 38.03,
+      "grup_oturum_sayisi": 100618
+    }
+  ],
+  "baskin_tercih_ozeti": [
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "0-20",
+      "baskin_tercih": "Bahçe",
+      "baskin_tercih_oran_yuzde": 37.46,
+      "grup_oturum_sayisi": 42052
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "20-50",
+      "baskin_tercih": "Bahçe",
+      "baskin_tercih_oran_yuzde": 36.18,
+      "grup_oturum_sayisi": 18265
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "50-80",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 37.92,
+      "grup_oturum_sayisi": 13521
+    },
+    {
+      "parametre": "bulut_grup",
+      "parametre_degeri": "80-100",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 45.35,
+      "grup_oturum_sayisi": 46911
+    },
+    {
+      "parametre": "is_day",
+      "parametre_degeri": 0,
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 43.65,
+      "grup_oturum_sayisi": 20131
+    },
+    {
+      "parametre": "is_day",
+      "parametre_degeri": 1,
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 38.03,
+      "grup_oturum_sayisi": 100618
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "0-40",
+      "baskin_tercih": "Bahçe",
+      "baskin_tercih_oran_yuzde": 42.58,
+      "grup_oturum_sayisi": 6473
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "40-60",
+      "baskin_tercih": "Bahçe",
+      "baskin_tercih_oran_yuzde": 39.92,
+      "grup_oturum_sayisi": 39701
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "60-80",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 40.31,
+      "grup_oturum_sayisi": 52479
+    },
+    {
+      "parametre": "nem_grup",
+      "parametre_degeri": "80-100",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 48.52,
+      "grup_oturum_sayisi": 22096
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "0-5",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 40.21,
+      "grup_oturum_sayisi": 6536
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "15-30",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 38.76,
+      "grup_oturum_sayisi": 60336
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "30+",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 40.42,
+      "grup_oturum_sayisi": 3709
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "parametre_degeri": "5-15",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 38.95,
+      "grup_oturum_sayisi": 50168
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Ilık (10–20°)",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 43.6,
+      "grup_oturum_sayisi": 47673
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Soğuk (0–10°)",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 55.17,
+      "grup_oturum_sayisi": 25713
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Sıcak (20–30°)",
+      "baskin_tercih": "Bahçe",
+      "baskin_tercih_oran_yuzde": 50.03,
+      "grup_oturum_sayisi": 41793
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Çok Soğuk (<0°)",
+      "baskin_tercih": "Paket",
+      "baskin_tercih_oran_yuzde": 57.29,
+      "grup_oturum_sayisi": 398
+    },
+    {
+      "parametre": "sicaklik_aralik",
+      "parametre_degeri": "Çok Sıcak (>30°)",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 37.34,
+      "grup_oturum_sayisi": 5172
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "0-10",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 55.17,
+      "grup_oturum_sayisi": 25713
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "10-20",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 43.6,
+      "grup_oturum_sayisi": 47673
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "20-30",
+      "baskin_tercih": "Bahçe",
+      "baskin_tercih_oran_yuzde": 50.03,
+      "grup_oturum_sayisi": 41793
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "30+",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 37.34,
+      "grup_oturum_sayisi": 5172
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "parametre_degeri": "<0",
+      "baskin_tercih": "Paket",
+      "baskin_tercih_oran_yuzde": 57.29,
+      "grup_oturum_sayisi": 398
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Açık",
+      "baskin_tercih": "Bahçe",
+      "baskin_tercih_oran_yuzde": 36.38,
+      "grup_oturum_sayisi": 65462
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Bulutlu",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 43.5,
+      "grup_oturum_sayisi": 35253
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Kar",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 48.06,
+      "grup_oturum_sayisi": 1080
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Sağanak",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 46.6,
+      "grup_oturum_sayisi": 103
+    },
+    {
+      "parametre": "yagis_kategori",
+      "parametre_degeri": "Yağmur",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 44.51,
+      "grup_oturum_sayisi": 18829
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "0",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 37.82,
+      "grup_oturum_sayisi": 100734
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "0-1",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 44.69,
+      "grup_oturum_sayisi": 17600
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "1-5",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 44.87,
+      "grup_oturum_sayisi": 2302
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "parametre_degeri": "5-15",
+      "baskin_tercih": "İç Salon",
+      "baskin_tercih_oran_yuzde": 50.44,
+      "grup_oturum_sayisi": 113
+    }
+  ],
+  "parametre_etki_skorlari": [
+    {
+      "parametre": "sicaklik_aralik",
+      "n": 120749,
+      "p_degeri": 0.0,
+      "cramers_v": 0.24505806125691665
+    },
+    {
+      "parametre": "sicaklik_grup",
+      "n": 120749,
+      "p_degeri": 0.0,
+      "cramers_v": 0.24505806125691665
+    },
+    {
+      "parametre": "nem_grup",
+      "n": 120749,
+      "p_degeri": 0.0,
+      "cramers_v": 0.1299576031509952
+    },
+    {
+      "parametre": "bulut_grup",
+      "n": 120749,
+      "p_degeri": 0.0,
+      "cramers_v": 0.10313459606232127
+    },
+    {
+      "parametre": "is_day",
+      "n": 120749,
+      "p_degeri": 2.9620182667718423e-261,
+      "cramers_v": 0.0996801349288431
+    },
+    {
+      "parametre": "yagis_kategori",
+      "n": 120749,
+      "p_degeri": 0.0,
+      "cramers_v": 0.09566804876935159
+    },
+    {
+      "parametre": "yagis_miktar_grup",
+      "n": 120749,
+      "p_degeri": 2.7380560909635434e-154,
+      "cramers_v": 0.054957493136969224
+    },
+    {
+      "parametre": "ruzgar_grup",
+      "n": 120749,
+      "p_degeri": 3.117203951538973e-18,
+      "cramers_v": 0.019807610288931368
+    }
+  ]
+}

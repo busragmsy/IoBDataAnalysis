@@ -1,0 +1,22 @@
+KAPALI GUN ANALIZI (2021 VE SONRASI)
+============================================================
+Analiz donemi: 2021-01-01 - 2025-05-28
+Toplam gun: 1609
+Acik gun (veri olan): 1390
+Kapali gun (veri olmayan): 219
+Kapali gun orani: %13.61
+Kesintisiz kapali donem sayisi: 15
+Ortalama kapali donem uzunlugu: 14.60 gun
+En uzun kapali donem: 37 gun (2021-04-10 - 2021-05-16)
+
+En uzun 10 kapali donem:
+ 1. 37 gun | 2021-04-10 - 2021-05-16
+ 2. 37 gun | 2025-03-01 - 2025-04-06
+ 3. 35 gun | 2024-03-11 - 2024-04-14
+ 4. 33 gun | 2022-04-02 - 2022-05-04
+ 5. 32 gun | 2023-03-23 - 2023-04-23
+ 6. 11 gun | 2021-07-15 - 2021-07-25
+ 7. 9 gun | 2022-07-09 - 2022-07-17
+ 8. 9 gun | 2023-06-24 - 2023-07-02
+ 9. 9 gun | 2024-06-15 - 2024-06-23
+10. 2 gun | 2022-03-12 - 2022-03-13
