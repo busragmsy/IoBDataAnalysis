@@ -1,0 +1,17 @@
+{
+  "analysis_scope": "2021 ve sonrasi - temiz dataset (outlier_flag=NaN)",
+  "analysis_start": "2021-01-02",
+  "analysis_end": "2025-05-28",
+  "row_count_clean": 120749,
+  "row_count_uzun_oturum": 9037,
+  "row_count_total": 133247,
+  "open_day_count": 1390,
+  "closed_day_count": 218,
+  "unique_check_count": 120749,
+  "mean_oturum_sure_dk": 33.0133,
+  "median_oturum_sure_dk": 25.0,
+  "mean_toplam_tutar": 412.5374,
+  "mean_toplam_tutar_deflate_2021": 172.8563,
+  "mean_toplam_miktar": 5.9105,
+  "mean_urun_sayisi": 3.4059
+}

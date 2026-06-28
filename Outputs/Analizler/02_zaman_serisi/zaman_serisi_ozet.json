@@ -1,0 +1,54 @@
+{
+  "kaynak": "oturum_hava_temiz_2021_sonrasi.csv",
+  "gun_sayisi": 1608,
+  "eksik_gun_interpolasyon": 218,
+  "decompose_period": 7,
+  "adf": {
+    "seri": "siparis_adedi",
+    "adf_stat": -5.9168,
+    "p_deger": 0.0,
+    "lag": 20,
+    "nobs": 1587,
+    "duragan_005": true,
+    "yorum": "Seri %5 anlamlilik duzeyinde DURAGAN (H0 reddedildi)."
+  },
+  "decompose_bilesen_std": [
+    {
+      "seri": "siparis_adedi",
+      "trend_std": 12.61693864905868,
+      "seasonal_std": 17.963466119733184,
+      "resid_std": 23.222836748578587,
+      "seasonal_range": 49.43506456188071
+    },
+    {
+      "seri": "toplam_miktar",
+      "trend_std": 89.47644028636928,
+      "seasonal_std": 96.51020226645339,
+      "resid_std": 155.7728639610431,
+      "seasonal_range": 272.7152255981648
+    },
+    {
+      "seri": "oturum_sure_dk",
+      "trend_std": 6.405788561503027,
+      "seasonal_std": 0.5030911697579945,
+      "resid_std": 5.9829371342711575,
+      "seasonal_range": 1.6284682095284246
+    }
+  ],
+  "ccf_en_guclu_lag": [
+    {
+      "analiz": "sicaklik_anomali_vs_bahce",
+      "x": "sicaklik_anomali",
+      "y": "bahce_tercih_pct",
+      "en_guclu_lag": 0,
+      "en_guclu_ccf": 0.1993
+    },
+    {
+      "analiz": "yagis_vs_paket",
+      "x": "toplam_yagis",
+      "y": "paket_oran_pct",
+      "en_guclu_lag": -4,
+      "en_guclu_ccf": 0.074
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "min_support": 0.01,
+  "min_lift": 1.0,
+  "sicak_gunesli_oturum": 61735,
+  "soguk_yagisli_oturum": 31067,
+  "toplam_kural_sicak": 400,
+  "toplam_kural_soguk": 418,
+  "rapor_cumlesi": "Soğuk ve Yağışlı günlerde 'AZ CORBA => SU' birliktelik kuralının Lift değeri (2.19), Sıcak günlere göre %23.9 daha yüksektir.",
+  "soguk_top10": [
+    {
+      "kume": "Soguk_Yagisli",
+      "kural": "KAYMAK => AYRAN, KUNEFE",
+      "antecedent_str": "KAYMAK",
+      "consequent_str": "AYRAN, KUNEFE",
+      "support": 0.0139,
+      "confidence": 0.528,
+      "lift": 7.7345,
+      "leverage": 0.012135614133317745,
+      "conviction": 1.9742044555033138
+    },
+    {
+      "kume": "Soguk_Yagisli",
+      "kural": "AYRAN, KUNEFE => KAYMAK",
+      "antecedent_str": "AYRAN, KUNEFE",
+      "consequent_str": "KAYMAK",
+      "support": 0.0139,
+      "confidence": 0.2041,
+      "lift": 7.7345,
+      "leverage": 0.012135614133317745,
+      "conviction": 1.2233513769429991
+    },
+    {
+      "kume": "Soguk_Yagisli",
+      "kural": "DONDURMA => KUNEFE, SISE AYRAN",
+      "antecedent_str": "DONDURMA",
+      "consequent_str": "KUNEFE, SISE AYRAN",
+      "support": 0.0108,
+      "confidence": 0.3083,
+      "lift": 7.6325,
+      "leverage": 0.009426290193464795,
+      "conviction": 1.3873631712174215
+    },
+    {
+      "kume": "Soguk_Yagisli",
+      "kural": "KUNEFE, SISE AYRAN => DONDURMA",
+      "antecedent_str": "KUNEFE, SISE AYRAN",
+      "consequent_str": "DONDURMA",
+      "support": 0.0108,
+      "confidence": 0.2685,
+      "lift": 7.6325,
+      "leverage": 0.009426290193464795,
+      "conviction": 1.3190049645319943
+    },
+    {
+      "kume": "Soguk_Yagisli",
+      "kural": "AZ ACILI SOGANSIZ => AZ ACILI YARIM SOGANSIZ",
+      "antecedent_str": "AZ ACILI SOGANSIZ",
+      "consequent_str": "AZ ACILI YARIM SOGANSIZ",
+      "support": 0.0104,
+      "confidence": 0.2167,
+      "lift": 7.3745,
+      "leverage": 0.009014864500663373,
+      "conviction": 1.2391672036226378
+    },
+    {
+      "kume": "Soguk_Yagisli",
+      "kural": "AZ ACILI YARIM SOGANSIZ => AZ ACILI SOGANSIZ",
+      "antecedent_str": "AZ ACILI YARIM SOGANSIZ",
+      "consequent_str": "AZ ACILI SOGANSIZ",
+      "support": 0.0104,
+      "confidence": 0.3549,
+      "lift": 7.3745,
+      "leverage": 0.009014864500663373,
+      "conviction": 1.4754920126351594
+    },
+    {
+      "kume": "Soguk_Yagisli",
+      "kural": "DONDURMA => FULL, KUNEFE",
+      "antecedent_str": "DONDURMA",
+      "consequent_str": "FULL, KUNEFE",
+      "support": 0.0148,
+      "confidence": 0.4209,
+      "lift": 6.9547,
+      "leverage": 0.012677689871098465,
+      "conviction": 1.6222082009880188
+    },
+    {
+      "kume": "Soguk_Yagisli",
+      "kural": "FULL, KUNEFE => DONDURMA",
+      "antecedent_str": "FULL, KUNEFE",
+      "consequent_str": "DONDURMA",
+      "support": 0.0148,
+      "confidence": 0.2447,
+      "lift": 6.9547,
+      "leverage": 0.012677689871098465,
+      "conviction": 1.2773646417080395
+    },
+    {
+      "kume": "Soguk_Yagisli",
+      "kural": "KAYMAK => FULL, KUNEFE",
+      "antecedent_str": "KAYMAK",
+      "consequent_str": "FULL, KUNEFE",
+      "support": 0.011,
+      "confidence": 0.4183,
+      "lift": 6.9123,
+      "leverage": 0.009443403445006635,
+      "conviction": 1.615048668398367
+    },
+    {
+      "kume": "Soguk_Yagisli",
+      "kural": "FULL, KUNEFE => KAYMAK",
+      "antecedent_str": "FULL, KUNEFE",
+      "consequent_str": "KAYMAK",
+      "support": 0.011,
+      "confidence": 0.1824,
+      "lift": 6.9123,
+      "leverage": 0.009443403445006635,
+      "conviction": 1.1908771729512175
+    }
+  ],
+  "sicak_top10": [
+    {
+      "kume": "Sicak_Gunesli",
+      "kural": "KUNEFE, SU => DONDURMA",
+      "antecedent_str": "KUNEFE, SU",
+      "consequent_str": "DONDURMA",
+      "support": 0.0105,
+      "confidence": 0.3688,
+      "lift": 8.0375,
+      "leverage": 0.009233088159024343,
+      "conviction": 1.5116738756708867
+    },
+    {
+      "kume": "Sicak_Gunesli",
+      "kural": "DONDURMA => KUNEFE, SU",
+      "antecedent_str": "DONDURMA",
+      "consequent_str": "KUNEFE, SU",
+      "support": 0.0105,
+      "confidence": 0.2298,
+      "lift": 8.0375,
+      "leverage": 0.009233088159024343,
+      "conviction": 1.2612303838209753
+    },
+    {
+      "kume": "Sicak_Gunesli",
+      "kural": "KUNEFE, SISE AYRAN => DONDURMA",
+      "antecedent_str": "KUNEFE, SISE AYRAN",
+      "consequent_str": "DONDURMA",
+      "support": 0.0126,
+      "confidence": 0.3652,
+      "lift": 7.9577,
+      "leverage": 0.010990271469477914,
+      "conviction": 1.5029536020520524
+    },
+    {
+      "kume": "Sicak_Gunesli",
+      "kural": "DONDURMA => KUNEFE, SISE AYRAN",
+      "antecedent_str": "DONDURMA",
+      "consequent_str": "KUNEFE, SISE AYRAN",
+      "support": 0.0126,
+      "confidence": 0.2739,
+      "lift": 7.9577,
+      "leverage": 0.010990271469477914,
+      "conviction": 1.329841715687029
+    },
+    {
+      "kume": "Sicak_Gunesli",
+      "kural": "DONDURMA => FULL, KUNEFE",
+      "antecedent_str": "DONDURMA",
+      "consequent_str": "FULL, KUNEFE",
+      "support": 0.019,
+      "confidence": 0.414,
+      "lift": 7.3685,
+      "leverage": 0.016421943242451286,
+      "conviction": 1.610728112092006
+    },
+    {
+      "kume": "Sicak_Gunesli",
+      "kural": "FULL, KUNEFE => DONDURMA",
+      "antecedent_str": "FULL, KUNEFE",
+      "consequent_str": "DONDURMA",
+      "support": 0.019,
+      "confidence": 0.3381,
+      "lift": 7.3685,
+      "leverage": 0.016421943242451286,
+      "conviction": 1.4415542970700044
+    },
+    {
+      "kume": "Sicak_Gunesli",
+      "kural": "DONDURMA => AYRAN, KUNEFE",
+      "antecedent_str": "DONDURMA",
+      "consequent_str": "AYRAN, KUNEFE",
+      "support": 0.0204,
+      "confidence": 0.4448,
+      "lift": 6.9866,
+      "leverage": 0.01748851573780609,
+      "conviction": 1.686365873536846
+    },
+    {
+      "kume": "Sicak_Gunesli",
+      "kural": "AYRAN, KUNEFE => DONDURMA",
+      "antecedent_str": "AYRAN, KUNEFE",
+      "consequent_str": "DONDURMA",
+      "support": 0.0204,
+      "confidence": 0.3206,
+      "lift": 6.9866,
+      "leverage": 0.01748851573780609,
+      "conviction": 1.4043646138851906
+    },
+    {
+      "kume": "Sicak_Gunesli",
+      "kural": "KAYMAK => KUNEFE",
+      "antecedent_str": "KAYMAK",
+      "consequent_str": "KUNEFE",
+      "support": 0.0189,
+      "confidence": 0.9588,
+      "lift": 6.8653,
+      "leverage": 0.01610838247580531,
+      "conviction": 20.889019842876888
+    },
+    {
+      "kume": "Sicak_Gunesli",
+      "kural": "KUNEFE => KAYMAK",
+      "antecedent_str": "KUNEFE",
+      "consequent_str": "KAYMAK",
+      "support": 0.0189,
+      "confidence": 0.135,
+      "lift": 6.8653,
+      "leverage": 0.01610838247580531,
+      "conviction": 1.1333401705743953
+    }
+  ],
+  "soguk_sicak_lift_fark_top5": [
+    {
+      "kural": "AZ CORBA => SU",
+      "lift_soguk": 2.192862573465503,
+      "confidence": 0.17893284268629253,
+      "support": 0.012521324878488428,
+      "lift_sicak": 1.7691835145018664,
+      "lift_fark_pct": 23.95
+    },
+    {
+      "kural": "SU => AZ CORBA",
+      "lift_soguk": 2.192862573465503,
+      "confidence": 0.1534516765285996,
+      "support": 0.012521324878488428,
+      "lift_sicak": 1.7691835145018664,
+      "lift_fark_pct": 23.95
+    },
+    {
+      "kural": "ACISIZ YARIM FULL => ACISIZ FULL",
+      "lift_soguk": 3.717370545880989,
+      "confidence": 0.3263034563561804,
+      "support": 0.01792899217819551,
+      "lift_sicak": 3.2537834860802666,
+      "lift_fark_pct": 14.25
+    },
+    {
+      "kural": "ACISIZ FULL => ACISIZ YARIM FULL",
+      "lift_soguk": 3.7173705458809896,
+      "confidence": 0.20425375870920426,
+      "support": 0.01792899217819551,
+      "lift_sicak": 3.253783486080266,
+      "lift_fark_pct": 14.25
+    },
+    {
+      "kural": "SU => CORBA",
+      "lift_soguk": 1.724204137825447,
+      "confidence": 0.18303747534516765,
+      "support": 0.014935462065857663,
+      "lift_sicak": 1.514745859056829,
+      "lift_fark_pct": 13.83
+    }
+  ],
+  "stratejik_oneriler": [
+    "Soguk/yagisli gunlerde CORBA + SU / AZ CORBA capraz satis paketleri one cikarilmali (lift sogukta ~%14-24 daha yuksek).",
+    "Sicak gunlerde KUNEFE + DONDURMA tatli capraz satisi guclu (lift > 7); yaz menusu bundle onerisi.",
+    "Her iki kumede AYRAN + FULL cekirdek birliktelik; hava kosuluna gore yan urun (CORBA vs DONDURMA) degisir."
+  ]
+}

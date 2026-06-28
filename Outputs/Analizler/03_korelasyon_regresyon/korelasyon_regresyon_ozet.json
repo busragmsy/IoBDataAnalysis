@@ -1,0 +1,233 @@
+{
+  "kaynak": "oturum_hava_temiz_2021_sonrasi.csv",
+  "gozlem_sayisi": 120749,
+  "normallik_testi": [
+    {
+      "degisken": "toplam_miktar",
+      "shapiro_W": 0.7341,
+      "p_deger": 4.331812031631768e-67,
+      "normal_dagilim": false
+    },
+    {
+      "degisken": "urun_sayisi",
+      "shapiro_W": 0.8596,
+      "p_deger": 4.3403647579895585e-55,
+      "normal_dagilim": false
+    },
+    {
+      "degisken": "oturum_sure_dk",
+      "shapiro_W": 0.6491,
+      "p_deger": 1.1067590279846409e-72,
+      "normal_dagilim": false
+    }
+  ],
+  "birincil_korelasyon_yontemi": "spearman",
+  "en_guclu_spearman_iliskiler": [
+    {
+      "hava": "temperature_2m",
+      "davranis": "urun_sayisi",
+      "spearman_rho": 0.0261,
+      "p_deger": 1.0692872081580263e-19,
+      "anlamli_005": true
+    },
+    {
+      "hava": "relative_humidity_2m",
+      "davranis": "urun_sayisi",
+      "spearman_rho": -0.0194,
+      "p_deger": 1.5184866550827984e-11,
+      "anlamli_005": true
+    },
+    {
+      "hava": "temperature_2m",
+      "davranis": "oturum_sure_dk",
+      "spearman_rho": 0.0187,
+      "p_deger": 7.89914756299337e-11,
+      "anlamli_005": true
+    },
+    {
+      "hava": "relative_humidity_2m",
+      "davranis": "oturum_sure_dk",
+      "spearman_rho": -0.017,
+      "p_deger": 3.4510547221106385e-09,
+      "anlamli_005": true
+    },
+    {
+      "hava": "windspeed_10m",
+      "davranis": "urun_sayisi",
+      "spearman_rho": 0.0081,
+      "p_deger": 0.005053788883583844,
+      "anlamli_005": true
+    }
+  ],
+  "chi_kare": [
+    {
+      "hava_degiskeni": "ruzgar_seviyesi",
+      "chi2": 113.4772,
+      "dof": 6,
+      "p_deger": 3.808604785536687e-22,
+      "anlamli_005": true,
+      "cramers_v": 0.0217,
+      "min_beklenen_frekans": 4110.94,
+      "gozlem": 120749
+    },
+    {
+      "hava_degiskeni": "nem_grubu",
+      "chi2": 4076.0564,
+      "dof": 6,
+      "p_deger": 0.0,
+      "anlamli_005": true,
+      "cramers_v": 0.1299,
+      "min_beklenen_frekans": 1720.26,
+      "gozlem": 120749
+    },
+    {
+      "hava_degiskeni": "yagis_yogunlugu",
+      "chi2": 729.4027,
+      "dof": 6,
+      "p_deger": 2.7380560909638557e-154,
+      "anlamli_005": true,
+      "cramers_v": 0.055,
+      "min_beklenen_frekans": 33.76,
+      "gozlem": 120749
+    },
+    {
+      "hava_degiskeni": "bulut_grubu",
+      "chi2": 2528.7631,
+      "dof": 4,
+      "p_deger": 0.0,
+      "anlamli_005": true,
+      "cramers_v": 0.1023,
+      "min_beklenen_frekans": 7881.59,
+      "gozlem": 120749
+    }
+  ],
+  "anlamli_chi_kare": [
+    {
+      "hava_degiskeni": "nem_grubu",
+      "chi2": 4076.0564,
+      "dof": 6,
+      "p_deger": 0.0,
+      "anlamli_005": true,
+      "cramers_v": 0.1299,
+      "min_beklenen_frekans": 1720.26,
+      "gozlem": 120749
+    },
+    {
+      "hava_degiskeni": "bulut_grubu",
+      "chi2": 2528.7631,
+      "dof": 4,
+      "p_deger": 0.0,
+      "anlamli_005": true,
+      "cramers_v": 0.1023,
+      "min_beklenen_frekans": 7881.59,
+      "gozlem": 120749
+    },
+    {
+      "hava_degiskeni": "yagis_yogunlugu",
+      "chi2": 729.4027,
+      "dof": 6,
+      "p_deger": 2.7380560909638557e-154,
+      "anlamli_005": true,
+      "cramers_v": 0.055,
+      "min_beklenen_frekans": 33.76,
+      "gozlem": 120749
+    },
+    {
+      "hava_degiskeni": "ruzgar_seviyesi",
+      "chi2": 113.4772,
+      "dof": 6,
+      "p_deger": 3.808604785536687e-22,
+      "anlamli_005": true,
+      "cramers_v": 0.0217,
+      "min_beklenen_frekans": 4110.94,
+      "gozlem": 120749
+    }
+  ],
+  "mnlogit_referans_masa": "İç Salon",
+  "mnlogit_pseudo_r2": 0.054,
+  "mnlogit_llf": -124688.2,
+  "bahce_en_guclu_faktor": {
+    "degisken": "precipitation",
+    "odds_ratio": 0.8835,
+    "p_deger": 5.035982937526305e-08,
+    "anlamli": true
+  },
+  "paket_en_guclu_faktor": {
+    "degisken": "precipitation",
+    "odds_ratio": 1.0323,
+    "p_deger": 0.06434087000107731,
+    "anlamli": false
+  },
+  "anlamli_mnlogit_katsayilari": [
+    {
+      "masa_kategori": "Bahçe",
+      "degisken": "temperature_2m",
+      "katsayi": 0.1140285820974923,
+      "std_hata": 0.001264111374700473,
+      "z": 90.20453765358373,
+      "p_deger": 0.0,
+      "odds_ratio": 1.120784158788447,
+      "anlamli_005": true
+    },
+    {
+      "masa_kategori": "Bahçe",
+      "degisken": "windspeed_10m",
+      "katsayi": -0.009168146955097017,
+      "std_hata": 0.0010263420494023262,
+      "z": -8.932837703021075,
+      "p_deger": 4.1521857091891536e-19,
+      "odds_ratio": 0.9908737523600694,
+      "anlamli_005": true
+    },
+    {
+      "masa_kategori": "Bahçe",
+      "degisken": "relative_humidity_2m",
+      "katsayi": 0.007064447505978107,
+      "std_hata": 0.0006377737915848241,
+      "z": 11.076729083557103,
+      "p_deger": 1.627085895595941e-28,
+      "odds_ratio": 1.0070894595793967,
+      "anlamli_005": true
+    },
+    {
+      "masa_kategori": "Bahçe",
+      "degisken": "precipitation",
+      "katsayi": -0.12383226226195504,
+      "std_hata": 0.022721368931583098,
+      "z": -5.450035278896689,
+      "p_deger": 5.035982937526305e-08,
+      "odds_ratio": 0.8835280294471549,
+      "anlamli_005": true
+    },
+    {
+      "masa_kategori": "Paket",
+      "degisken": "temperature_2m",
+      "katsayi": 0.02319368422316556,
+      "std_hata": 0.0011194198796156583,
+      "z": 20.719378533038814,
+      "p_deger": 2.3165607710456794e-95,
+      "odds_ratio": 1.0234647493264548,
+      "anlamli_005": true
+    },
+    {
+      "masa_kategori": "Paket",
+      "degisken": "windspeed_10m",
+      "katsayi": -0.005078364862526011,
+      "std_hata": 0.0009663922689023155,
+      "z": -5.2549725675002685,
+      "p_deger": 1.480465366773385e-07,
+      "odds_ratio": 0.9949345082316704,
+      "anlamli_005": true
+    },
+    {
+      "masa_kategori": "Paket",
+      "degisken": "relative_humidity_2m",
+      "katsayi": 0.0028226692573342133,
+      "std_hata": 0.0006007138899498219,
+      "z": 4.698857983074094,
+      "p_deger": 2.6162029164022026e-06,
+      "odds_ratio": 1.0028266567391004,
+      "anlamli_005": true
+    }
+  ]
+}

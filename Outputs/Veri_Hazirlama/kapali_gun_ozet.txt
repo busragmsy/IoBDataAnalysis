@@ -1,0 +1,8 @@
+KAPALI GUN ANALIZI (2021 VE SONRASI - TEMIZ SET)
+============================================================
+Analiz donemi: 2021-01-01 - 2025-05-28
+Toplam gun: 1609
+Acik gun: 1390
+Kapali gun: 219
+Kapali gun orani: %13.61
+En uzun kapali donem: 37 gun (2021-04-10 - 2021-05-16)
