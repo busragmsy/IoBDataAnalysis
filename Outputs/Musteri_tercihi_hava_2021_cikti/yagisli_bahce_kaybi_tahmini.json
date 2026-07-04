@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "kaynak_dosya": "Veriler\\oturum_hava_birlesik_2021_ve_sonrasi.csv",
+    "uretim_zamani": "2026-06-09T20:35:08.327530",
+    "analiz_turu": "yagisli_gunlerde_bahce_kaybi_tahmini",
+    "toplam_oturum": 120749,
+    "yagisli_oturum": 20015,
+    "yagisli_oturum_yuzde": 16.58
+  },
+  "veri_ozeti": {
+    "bahce_tercih_oranı_yuzde": 23.54,
+    "bahce_secilen_sayi": 4712,
+    "bahce_secilmeyen_sayi": 15303,
+    "model_ekim_verisi": 14010,
+    "model_test_verisi": 6005
+  },
+  "model_performansi": {
+    "accuracy": 0.7126,
+    "precision": 0.4329,
+    "recall": 0.7122,
+    "f1_score": 0.5385,
+    "auc_roc": 0.7608
+  },
+  "bahce_kaybi_analizi": {
+    "true_negatives": 3272,
+    "false_positives": 1319,
+    "false_negatives": 407,
+    "true_positives": 1007,
+    "bahce_kaybi_oran_yuzde": 28.78,
+    "bahce_kaybi_sayi": 407
+  },
+  "oneriler": [
+    "Yağışlı günlerde müşterilerin yaklaşık %28.8i bahçeyi seçmiyor",
+    "Model eğitilmiş ve yeni tahminler yapılabilir",
+    "Sıcaklık ve yağış miktarı önemli etkili faktörler",
+    "Pazarlama stratejisi yağışlı günler için optimize edilebilir"
+  ]
+}
