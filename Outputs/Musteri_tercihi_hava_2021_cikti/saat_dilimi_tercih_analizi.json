@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "kaynak_dosya": "Veriler\\oturum_hava_birlesik_2021_ve_sonrasi.csv",
+    "uretim_zamani": "2026-06-09T20:26:41.073572",
+    "satir_sayisi": 120749,
+    "analiz_turu": "saat_dilimi_tercih_analizi"
+  },
+  "saat_dilimleri": [
+    "Sabah (06:00-11:59)",
+    "Öğle (12:00-17:59)",
+    "Akşam (18:00-23:59)",
+    "Gece (00:00-05:59)"
+  ],
+  "tercih_oranlari": {
+    "Bahçe": {
+      "Sabah (06:00-11:59)": 34.14,
+      "Öğle (12:00-17:59)": 32.13,
+      "Akşam (18:00-23:59)": 27.98,
+      "Gece (00:00-05:59)": 0.0
+    },
+    "Paket": {
+      "Sabah (06:00-11:59)": 27.98,
+      "Öğle (12:00-17:59)": 28.13,
+      "Akşam (18:00-23:59)": 34.79,
+      "Gece (00:00-05:59)": 0.0
+    },
+    "İç Salon": {
+      "Sabah (06:00-11:59)": 37.89,
+      "Öğle (12:00-17:59)": 39.74,
+      "Akşam (18:00-23:59)": 37.23,
+      "Gece (00:00-05:59)": 0.0
+    }
+  },
+  "oturum_sayilari": {
+    "Bahçe": {
+      "Sabah (06:00-11:59)": 2538.0,
+      "Öğle (12:00-17:59)": 26177.0,
+      "Akşam (18:00-23:59)": 8907.0,
+      "Gece (00:00-05:59)": 0.0
+    },
+    "Paket": {
+      "Sabah (06:00-11:59)": 2080.0,
+      "Öğle (12:00-17:59)": 22921.0,
+      "Akşam (18:00-23:59)": 11074.0,
+      "Gece (00:00-05:59)": 0.0
+    },
+    "İç Salon": {
+      "Sabah (06:00-11:59)": 2817.0,
+      "Öğle (12:00-17:59)": 32383.0,
+      "Akşam (18:00-23:59)": 11852.0,
+      "Gece (00:00-05:59)": 0.0
+    }
+  },
+  "saat_dagitim_yuzde": {
+    "Sabah (06:00-11:59)": 6.16,
+    "Öğle (12:00-17:59)": 67.48,
+    "Akşam (18:00-23:59)": 26.36,
+    "Gece (00:00-05:59)": 0.0
+  },
+  "baskir_tercihler": [
+    {
+      "saat_dilimi": "Sabah (06:00-11:59)",
+      "baskin_tercih": "İç Salon",
+      "baskin_oran_yuzde": 37.89,
+      "oturum_sayisi": 7435
+    },
+    {
+      "saat_dilimi": "Öğle (12:00-17:59)",
+      "baskin_tercih": "İç Salon",
+      "baskin_oran_yuzde": 39.74,
+      "oturum_sayisi": 81481
+    },
+    {
+      "saat_dilimi": "Akşam (18:00-23:59)",
+      "baskin_tercih": "İç Salon",
+      "baskin_oran_yuzde": 37.23,
+      "oturum_sayisi": 31833
+    }
+  ],
+  "istatistiksel_test": {
+    "test_turu": "chi_square",
+    "chi2_istatistigi": 537.4042,
+    "p_degeri": 5.432986656144317e-115,
+    "serbestlik_derecesi": 4,
+    "cramers_v": 0.0472,
+    "yorum": "Çok güçlü ilişki"
+  }
+}

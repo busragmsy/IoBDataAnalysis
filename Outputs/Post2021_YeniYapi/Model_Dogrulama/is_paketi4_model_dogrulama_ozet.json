@@ -1,0 +1,85 @@
+{
+  "aciklama": "Is Paketi 4 - Model test/dogrulama sonuclari",
+  "cv_summary": [
+    {
+      "target": "toplam_tutar",
+      "cv_rmse_mean": 396.0074763491022,
+      "cv_rmse_std": 267.3001549665335,
+      "cv_mae_mean": 280.16713848909285,
+      "cv_mae_std": 194.98194356915923,
+      "cv_r2_mean": 0.11536991672139243,
+      "cv_r2_std": 0.26676835019769857,
+      "n_splits": 5
+    },
+    {
+      "target": "oturum_sure_dk",
+      "cv_rmse_mean": 14.773589206492073,
+      "cv_rmse_std": 3.699826025910631,
+      "cv_mae_mean": 9.457153456773181,
+      "cv_mae_std": 0.6912534096167254,
+      "cv_r2_mean": 0.8694876152555133,
+      "cv_r2_std": 0.11907589986939315,
+      "n_splits": 5
+    },
+    {
+      "target": "urun_sayisi",
+      "cv_rmse_mean": 1.0735327804099424,
+      "cv_rmse_std": 0.018177850546165518,
+      "cv_mae_mean": 0.7510067106663595,
+      "cv_mae_std": 0.012397126313836297,
+      "cv_r2_mean": 0.7272825736719671,
+      "cv_r2_std": 0.018544524941416445,
+      "n_splits": 5
+    }
+  ],
+  "holdout_diagnostics": [
+    {
+      "target": "toplam_tutar",
+      "label": "Gelir davranisi (toplam_tutar)",
+      "holdout_test_size": 26650,
+      "holdout_rmse": 812.5359991583392,
+      "holdout_mae": 583.4689747446008,
+      "holdout_r2": -0.16182794188098937,
+      "baseline_rmse_mean_predictor": 965.3397385855787,
+      "rmse_improvement_over_baseline_pct": 15.829011623527322,
+      "bias_overall_mean_residual": 580.3860709742739,
+      "durbin_watson": 0.9356813486253961,
+      "durbin_watson_yorum": "pozitif otokorelasyon belirtisi (model artik hatalari sistematik oruntu birakiyor olabilir)",
+      "adf_statistic_on_residuals": -14.877024343936167,
+      "adf_pvalue_on_residuals": 1.6307015756826215e-27,
+      "adf_yorum": "residualler duragan (p<0.05) -> modelin aciklayamadigi sistematik bir trend/kalinti yapi gorulmuyor"
+    },
+    {
+      "target": "oturum_sure_dk",
+      "label": "Oturum suresi davranisi",
+      "holdout_test_size": 26650,
+      "holdout_rmse": 12.50052596242512,
+      "holdout_mae": 8.820172941483516,
+      "holdout_r2": 0.7231694939094775,
+      "baseline_rmse_mean_predictor": 39.22476568732026,
+      "rmse_improvement_over_baseline_pct": 68.13103725826454,
+      "bias_overall_mean_residual": -0.8792791539947206,
+      "durbin_watson": 1.9370365172538226,
+      "durbin_watson_yorum": "onemli bir otokorelasyon belirtisi yok (~2'ye yakin)",
+      "adf_statistic_on_residuals": -111.4123942949795,
+      "adf_pvalue_on_residuals": 0.0,
+      "adf_yorum": "residualler duragan (p<0.05) -> modelin aciklayamadigi sistematik bir trend/kalinti yapi gorulmuyor"
+    },
+    {
+      "target": "urun_sayisi",
+      "label": "Satis / siparis adedi (H2 ana hedefi)",
+      "holdout_test_size": 26650,
+      "holdout_rmse": 1.0569081917523746,
+      "holdout_mae": 0.7427671004444,
+      "holdout_r2": 0.7357005826594872,
+      "baseline_rmse_mean_predictor": 2.0581954052004963,
+      "rmse_improvement_over_baseline_pct": 48.64879257422026,
+      "bias_overall_mean_residual": 0.021372162949015533,
+      "durbin_watson": 1.9847762085618845,
+      "durbin_watson_yorum": "onemli bir otokorelasyon belirtisi yok (~2'ye yakin)",
+      "adf_statistic_on_residuals": -72.88615363174209,
+      "adf_pvalue_on_residuals": 0.0,
+      "adf_yorum": "residualler duragan (p<0.05) -> modelin aciklayamadigi sistematik bir trend/kalinti yapi gorulmuyor"
+    }
+  ]
+}
